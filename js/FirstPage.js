@@ -20,6 +20,9 @@ $(function(){
 
 });
 
+
+
+
 function loadthing(){
 	$("#txtarea").val("有些人有些事，相见不如怀念，说说你的故事吧");
 

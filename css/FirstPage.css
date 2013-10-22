@@ -147,7 +147,8 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 .btn_30px{text-shadow: 1px 1px rgba(0, 0, 0, 0.2);border-style: solid;border-width: 1px;border-radius: 2px 2px 2px 2px;background-color:#e64141; height: 26px;line-height: 26px;display: inline-block;width: 78px;padding: 0px;text-align: center;font-size: 16px;font-family: "Microsoft Yahei";color: #fff;line-height: 26px;visibility:hidden;}
 .changefabu{border: 1px solid #e64141;background-image: none;}
 
-
+.uploadImg{display: block;float: left;margin-top: 10px;width: 44px;height: 16px;font-family: "Arial";font-size: 12px;color: #333;text-align: left;line-height: 16px;white-space: nowrap;}
+.icon_sw_img{vertical-align:middle; display:inline-block; margin-left: 4px;width: 16px;height: 16px;background-image: url("../images/userHomeImg/icon.png");background-position: -275px -25px;background-repeat: no-repeat;overflow: hidden;white-space: nowrap;}
 
 
 
@@ -163,6 +164,36 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 
 
 /**************************************right start********************************************/
+.pl_rightmod_myinfo{width: 230px;height:136px;border: 1px solid #ccc;}
+.W_person_info{width: 190px;height: 83px;margin: 0 20px;}
+.headImg{width: 80px;height: 81px;padding-bottom: 2px;float: left;}
+.headA{display: block;width: 80px;height: 81px;}
+.nameBox{width:100px;height:40px;float: right;}
+.name{width: 95px;line-height: 16px;display: inline-block;overflow: hidden;font-size: 12px;font-weight: bold;word-wrap: break-word;font-family: "Arial";color:#333;}
+.user_atten{margin: 20px;display: block;}
+.user_atten li{min-width:24px; display: block; float: left;color:#e6e6e6; margin: 0px 5px 0px 0px;padding: 0px 5px 0px 0px;border-right-width: 1px;border-right-style: solid;text-align: left;}
+.S_fun{display: block;color: #333;white-space: nowrap;font-size: 12px;font-family:"Arial";color: #333;}
+.stro{font-size: 20px;display: block;margin: 0px 0px 4px;font-weight: 400;line-height: 15px;font-family: tahoma;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*************************************right end********************************************/
