@@ -7,7 +7,62 @@ $(function(){
 	ListShow();
 	Slide();
 
+
+	loadthing();
+	getFocus();
+
+
+
+
+
+
+
+
 });
+
+function loadthing(){
+	$("#txtarea").val("有些人有些事，相见不如怀念，说说你的故事吧");
+
+}
+
+function getFocus(){
+
+	$("#txtarea").focus(function(){
+		//alert();
+		$(".btn_30px").css("visibility","visible");
+		$(".send_btn").addClass("changefabu");
+		$("#txtarea").val($("#txtarea").attr("value"));
+		$(".input").addClass("changecolor");
+		$(".arrow").addClass("changeposition");
+	});
+	$(".input_detail").blur(function(){
+		$(".input").removeClass("changecolor");
+		$(".arrow").removeClass("changeposition");
+		loadthing();
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function Slide(){

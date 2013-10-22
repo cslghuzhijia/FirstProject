@@ -113,3 +113,57 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************middle start********************************************/
+.pl_content_publisherTop{width: 600px;height: 173px;}
+.send_weibo{padding: 0px 20px 11px;}
+.title_area{height: 22px;overflow: hidden;clear: both;border:1px solid #ccc;}
+.title{float: left;width: 224px;height: 22px;background-image: url("../images/userHomeImg/all_iconbtn.png");}
+.input{ background-color:#fff;border-style: solid;border-width: 1px;box-shadow: 1px 1px 1px 0px #eaeaea inset;position: relative;border-radius: 3px 3px 3px 3px;margin: 15px 0px 0px;border-color: #ccc;width: 558px;height:88px;margin-top:15px;}
+.input_detail{overflow: auto; resize:none; color: #808080; border: 0px none;width: 544px;height: 74px;margin: 2px 0px 0px 2px;padding: 5px;border-style: none;border-width: 0px;font-size: 14px;font-family: Tahoma;word-wrap: break-word;line-height: 18px;overflow-y: auto;overflow-x: hidden;outline: medium none;}
+.changecolor{border:1px solid #ffb941;}
+.arrow{background-image: url("../images/userHomeImg/all_iconbtn.png");background-position: -475px 0px;display: block;width: 11px;height: 19px;position: absolute;top: 19px;right: -11px;}
+.changeposition{background-position:-475px -51px;background-image: url("../images/userHomeImg/icon.png");}
+.func_area{width: 560px;height: 35px;float: left;}
+.func{width: 170px;height: 30px;padding-top: 5px;float: right;}
+.send_btn{float:right;width: 80px;height: 28px;border: 1px solid #ccc;border-radius: 2px 2px 2px 2px;display: inline-block;overflow: hidden;vertical-align: middle;cursor: pointer;background-image: url("../images/userHomeImg/all_iconbtn.png");background-position:-226px -1px; }
+.btn_30px{text-shadow: 1px 1px rgba(0, 0, 0, 0.2);border-style: solid;border-width: 1px;border-radius: 2px 2px 2px 2px;background-color:#e64141; height: 26px;line-height: 26px;display: inline-block;width: 78px;padding: 0px;text-align: center;font-size: 16px;font-family: "Microsoft Yahei";color: #fff;line-height: 26px;visibility:hidden;}
+.changefabu{border: 1px solid #e64141;background-image: none;}
+
+
+
+
+
+
+
+
+
+
+
+/**************************************middle end********************************************/
+
+
+
+
+/**************************************right start********************************************/
+
+
+/*************************************right end********************************************/
+
