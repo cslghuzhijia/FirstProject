@@ -10,8 +10,8 @@ $(function(){
 
 	loadthing();
 	getFocus();
-
-
+	addImg();
+	closeHover();
 
 
 
@@ -19,8 +19,23 @@ $(function(){
 
 
 });
+function closeHover(){
+	$(".W_close").hover(function(){
+		$(this).addClass("closeh");
+	},function(){
+		$(this).removeClass("closeh");
+	});
+	$(".W_close").click(function(){
+		$(".W_layer").hide();
+	});
+}
 
-
+function addImg(){
+	$(".uploadImg").click(function(){
+		$(".W_layer").show();
+	});
+	
+}
 
 
 function loadthing(){
