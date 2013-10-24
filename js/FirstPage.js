@@ -6,19 +6,106 @@ $(function(){
 	SmallIconhover();
 	ListShow();
 	Slide();
-
-
 	loadthing();
 	getFocus();
 	addImg();
 	closeHover();
 
 
+	chooseup_click();
+	unitcolor_hover();
+	weibo_hide();
 
 
 
 
 });
+function weibo_hide(){
+	$("#hide").click(function(){
+		$(this).parentsUntil(".pl_content_homeFeed").hide();
+	});
+}
+
+function unitcolor_hover(){
+
+$(".menu_small a").hover(function(e){
+	$(this).addClass("chbg");
+},function(){
+	$(this).removeClass("chbg");
+});
+	
+}
+function chPosition(obj,a,b)
+{
+	var Xp=obj.css("background-position").split(" ")[0];
+	var Yp=obj.css("background-position").split(" ")[1];
+	if (a=="no") {
+		Xp=Xp;
+	}
+	else{
+		Xp=a;
+	}
+	if (b=="no") {
+		Yp=Yp;
+	}
+	else{
+		Yp=b;
+	}
+	var pos=Xp+" "+Yp;
+	obj.css({backgroundPosition:pos});
+}
+var num=0;
+function chooseup_click(){
+	$(".icon_chooseup").hover(function(){
+
+		chPosition($(this),"-100px","no");
+		
+	},function(){
+		chPosition($(this),"-75px","no");
+	});
+
+	$(".icon_chooseup").click(function(){
+		if (num%2==0) {
+			chPosition($(this),"no","-75px");
+			$(".menu_small").show();
+		}
+		else{
+			chPosition($(this),"no","-225px");
+			$(".menu_small").hide();
+		}
+		num++;
+	});
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function closeHover(){
 	$(".W_close").hover(function(){
 		$(this).addClass("closeh");

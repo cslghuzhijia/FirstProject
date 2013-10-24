@@ -1,0 +1,12 @@
+function chooseup_click(){
+	$(".icon_chooseup").hover(function(){
+		var Y=$(this).css("background-position").split(" ")[1];
+		var curP="-100px"+" "+Y;
+		$(this).css({backgroundPosition:curP});
+		
+	},function(){
+		var Y=$(this).css("background-position").split(" ")[1];
+		var curP="-75px"+" "+Y;
+		$(this).css({backgroundPosition:curP});
+	});
+}
