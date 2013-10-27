@@ -10,3 +10,19 @@ function chooseup_click(){
 		$(this).css({backgroundPosition:curP});
 	});
 }
+
+
+
+//$(this).parentsUntil(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "visible" });
+
+
+
+
+
+$(".WB_global_personcard").hover(function(){
+		 $(this).parents(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "visible" });
+		index=0;
+	},function(){
+		index=1;
+		
+	});

@@ -175,17 +175,17 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 
 
 
-.pl_content_homeFeed{width: 600px;height: auto;clear:both;float: left;}
+.pl_content_homeFeed{width: 600px;height: auto;float: left;border:1px solid #ccc;}
 .group_read{width: 560px;height: 68px;margin: 0 20px 11px 20px ;}
 .bar{width: 560px;height: 44px;float: left;}
 .sort{width: 560px;height: 32px;float: left;border-bottom: 2px solid #ea1429;}
 .current{width: 50px;height: 32px;float: left;}
-.curA{font-weight: bold; display: block;width: 30px;height: 30px;line-height: 30px; margin: 0 10px;font-family: "SimSun";color: #333;font-size: 14px;}
-.curbg{display: block; width:44px;height: 8px;margin:-6px auto 0 auto;position: relative;top:2px;background-position: -500px -75px;background-image: url("../images/userHomeImg/icon.png");background-color: #fafafa;}
-.WB_feed_type{position: relative; margin: 0px 20px;padding: 20px 0px 0px;border-color: #e6e6e6;width: 560px;height: auto;}
-.WB_screen{position: relative; width:12px;height: 12px;margin: -9px 0 0 548px;}
-.icon_chooseup{background-position: -75px -225px;display: inline-block;width: 12px;height: 12px;background-repeat: no-repeat;background-image: url("../images/userHomeImg/icon.png");}
-.menu_small{background-color: #fff;border-radius: 2px 2px 2px 2px;position:absolute;top:12px;right: 0px; display: none; height: 51px; padding: 1px;*height:75px;border:1px solid #ccc;}
+.curA{white-space: nowrap; font-weight: bold; display: block;width: 30px;height: 30px;line-height: 30px; margin: 0 10px;font-family: "SimSun";color: #333;font-size: 14px;}
+.curbg{display: block; width:44px;height: 8px; position: relative;margin:-6px auto 0 auto;top:2px;*top:13px;*margin-top:-15px;background-position: -500px -75px;background-image: url("../images/userHomeImg/icon.png");background-color: #fafafa;}
+.WB_feed_type{position: relative; margin: 0px 20px;padding: 20px 0px 0px;border-color: #e6e6e6;width: 560px;min-height:50px;*min-height:80px;}
+.WB_screen{ position: relative;width:12px;height: 12px;margin: -9px 0 0 548px;}
+.icon_chooseup{visibility:hidden;background-position: -75px -75px;display: inline-block;width: 12px;height: 12px;background-repeat: no-repeat;background-image: url("../images/userHomeImg/icon.png");}
+.menu_small{background-color: #fff;border-radius: 2px 2px 2px 2px;position:absolute;top:12px;right: 0px; display: none; height: 51px; padding: 1px;*height:51px;border:1px solid #ccc;}
 .menu_small ul{clear: both;}
 .menu_small li{display: inline;list-style: none;}
 .menu_small a{font-family: "SimSun";font-size: 12px;color: #333; white-space: nowrap;padding: 5px 10px;color: #333;display: block;cursor: pointer;}
@@ -193,8 +193,22 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 .WB_feed_datail{border-bottom: 1px solid #e6e6e6;padding: 0 0 11px;overflow: hidden;width: 560px;height:auto;}
 .WB_face{width: 50px;height: 50px;position: relative;float: left;}
 .W_face_radius{display: block;width: 50px;height: 50px;border-radius: 2px 2px 2px 2px;border:1px solid #ccc;}
-.WB_detail{width: 495px;height: auto;margin-left: 65px;}
-.WB_name{font-family: "SimSun";color: #333;font-weight: bold;font-size: 12px;line-height: 16px;}
+
+.WB_detail{width: 495px;*width:492px; height: auto;margin-left: 65px;}
+.WB_name{float: left; font-family: "SimSun";color: #333;font-weight: bold;font-size: 14px;line-height: 16px;}
+.wbnamecolor{color:#4d8775;}
+.WB_info{width:495px;*width:492px;height: 16px;white-space: nowrap;}
+.WB_text{white-space: nowrap;font-size: 14px;line-height:23px;padding: 4px 0px;font-family: "SimSun";color:#333;text-align: left;}
+.WB_media_list{width: 495px;height:120px;padding-bottom:15px;margin-right:-20px;*height: 135px;float: left;border:1px solid #ccc;}
+.WB_media_list li{display: inline-block;float: left;width:50px; margin: 0 9px 0 0;vertical-align: top;}
+.chePicMin{border:1px solid #ccc; display: inline-block;vertical-align:top;min-width:60px;height: 120px; text-align: center;color:#bee4d2;}
+.WB_func{width:495px;height:16px; white-space: nowrap;float: left;}
+.WB_handle{float: right;width: 280px;height:14px;word-spacing:-5px;line-height:14px;white-space: nowrap;}
+.zan{color: #4d8775;font-family: "Arial";font-size: 12px;}
+.icon_praised_b{position: relative;width: 13px;display: inline-block;height: 14px;background-position: -75px 0px;vertical-align: text-bottom;background-image: url("../images/userHomeImg/icon.png");background-repeat:no-repeat;}
+.sfgt{width: 3px;height:14px;margin:0 6px 0 8px;color:#aeaeae;font-family: "Arial";font-size: 12px;font-style: normal;font-weight: normal;padding: 0px;}
+.WB_from{width: 495px;height: 27px;*height:14px;*vertical-align:top; float: left;line-height:14px;white-space: nowrap;}
+.WB_time{margin: 0 7px 0 0;color:#7cb4a3;font-size: 12px;font-family: "Arial";line-height: 13.5px;float: left;}
 
 
 
@@ -213,7 +227,18 @@ p{text-align: left;font-family: "SimSun";color: #333;font-size: 12px;line-height
 
 
 
+.WB_global_personcard{z-index:99999;left:55px;top:0px;position:absolute;visibility: hidden; width: 368px;height:256px;background: #fff;border: 1px solid #e1e1e1;border-radius: 2px 2px 2px 2px;}
 
+.top_div{position:relative; width: 360px;height: 105px;float: left;border:1px solid #335;margin: 3px 3px 0px 3px;}
+.mid_div{width: 360px;height: 105px;float: left;border:1px solid #335;margin: 0px 3px 0px 3px;}
+.bottom_div{width: 360px;height: 32px;float: left;border:1px solid #335;margin: 0px 3px 0px 3px;}
+.headImg{width:86px;height: 86px;position: absolute;border:1px solid #335;top:70px;left:30px;}
+.mid_con{width: 325px;height:86px;margin: 10px auto;border:1px solid #335;}
+.mid_con_bar{width: 325px;height:40px;border:1px solid #335;float: left;}
+.inner{width: 207px;height:16px;border:1px solid #335;float: right;text-align: left;}
+.innnera{font-family: "Arial";color:#0A8cD2;font-size: 12px;}
+.inner span{font-family: "Arial";color:#333;font-size: 12px;}
+.bot_inner{width:315px;height:20px;margin: 5px auto;border:1px solid #335;}
 /**************************************middle end********************************************/
 
 

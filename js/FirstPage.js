@@ -10,16 +10,115 @@ $(function(){
 	getFocus();
 	addImg();
 	closeHover();
-
-
 	chooseup_click();
 	unitcolor_hover();
 	weibo_hide();
+	WB_feed_typeHover();
+
+
+	
+	Wbface_hover();
+	personcard();
+	
+
+
+
+
+
 
 
 
 
 });
+
+
+
+var index=0;
+function personcard(){
+	$(".WB_global_personcard").mouseover(function () {
+        $(this).parents(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "visible" });
+        index=0;
+    });
+    $(".WB_global_personcard").mouseout(function(){
+    	index=1;
+    });
+	
+}
+
+
+
+function Wbface_hover(){
+	
+	$(".WB_face").mouseover(function () {
+        $(this).parents(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "visible" });
+        
+    });
+    $(".WB_face").mouseout(function(){
+    	if (index==0) {
+    		 $(this).parents(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "visible" });
+    	}
+    	else{
+    		$(this).parents(".pl_content_homeFeed").find(".WB_global_personcard").css({ visibility: "hidden" });
+    	}
+    	
+    });
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function WB_feed_typeHover(){
+	$(".WB_feed_type").hover(function(){
+		$(this).find(".icon_chooseup").css({visibility:"visible"});
+		$(this).find(".WB_name").addClass("wbnamecolor");
+	},function(){
+		if (num%2!=1) {
+			$(this).find(".icon_chooseup").css({visibility:"hidden"});
+		}
+		else{
+			$(this).find(".icon_chooseup").css({visibility:"visible"});
+		}
+		$(this).find(".WB_name").removeClass("wbnamecolor");
+	});
+}
 function weibo_hide(){
 	$("#hide").click(function(){
 		$(this).parentsUntil(".pl_content_homeFeed").hide();
@@ -66,11 +165,12 @@ function chooseup_click(){
 
 	$(".icon_chooseup").click(function(){
 		if (num%2==0) {
-			chPosition($(this),"no","-75px");
+			chPosition($(this),"no","-225px");
 			$(".menu_small").show();
+			 WB_feed_typeHover();
 		}
 		else{
-			chPosition($(this),"no","-225px");
+			chPosition($(this),"no","-75px");
 			$(".menu_small").hide();
 		}
 		num++;
@@ -78,6 +178,25 @@ function chooseup_click(){
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
